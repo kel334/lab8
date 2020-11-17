@@ -6,6 +6,7 @@ import json
 import random
 
 
+# creates welcome screen and starts main menu
 def main():
     print("----------------------------------------------")
     print()
@@ -15,6 +16,7 @@ def main():
     menu()
 
 
+# asks user for selection and moves to option functions
 def menu():
     print("Main Menu")
     print("\t(p)lay game")
@@ -25,9 +27,17 @@ def menu():
     execution(selection)
 
 
+# takes input and calls proper function or asks again
 def execution(selection):
-    if selection not in ['p', 'c', 'q']:
-        print("Please select one of the options.\n")
+    only_select = ['p', 'c', 'q']
+    while selection not in only_select:
+        try:
+            print("Please select one of the options.\n")
+            selection = input().lower
+            if selection in only_select:
+                break
+        except:
+            pass  # INTENTIONAL
     if selection == 'p':
         game()
     if selection == 'c':
@@ -36,12 +46,15 @@ def execution(selection):
         quit()
 
 
+# starts the game
 def game():
     with open('questions.json', 'r') as qs:
         contents = json.load(qs)
         score = 0
         index = 0
+        # shuffles the questions around
         random.shuffle(contents)
+        # asks the question
         while index < len(contents):
             questions = contents[index]
             print()
@@ -54,6 +67,7 @@ def game():
             print()
             answer = input("\tYour Answer: ")
             possible = questions["choices"]
+            # keeps asking question in case of invalid input
             while answer not in possible:
                 try:
                     print("\tThat's not an option! Try again, think harder!\n")
@@ -61,7 +75,8 @@ def game():
                     if answer == questions["correct"]:
                         break
                 except:
-                    pass #come back to this
+                    pass  # INTENTIONAL
+            # gives response based on input and keeps score and Q count
             if answer == questions["correct"]:
                 print("\tGood job! *Confetti falls in the background*")
                 score += 1
@@ -69,8 +84,8 @@ def game():
             else:
                 print("\tNot correct. *The audience boos*")
                 index += 1
-            print(str(score), "points out of 10!")
-            
+            print("\tYour score is: ", str(score), "points out of 10!")
+        # called at the end of the game, returns to menu
         print()
         print("----------------------------------------------")
         print("\tGood job!\n")
@@ -81,14 +96,7 @@ def game():
         menu()
 
 
-def count_lines():
-    with open('questions.json', 'r') as question_file:
-        number_lines = 0
-        for line in question_file:
-
-            number_lines += 1
-
-
+# prints the credits, returns to menu
 def show_credits():
     print()
     print("----------------------------------------------")
@@ -102,12 +110,14 @@ def show_credits():
     menu()
 
 
+# quits the game politely
 def quit():
     print()
     print("------------------------------------------------")
     print("\tThank you for playing!")
     print("\tQuitting in 3... 2... 1...")
     print("------------------------------------------------")
+
 
 if __name__ == '__main__':
     main()

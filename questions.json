@@ -1,1 +1,100 @@
-[{"prompt": "What did scientists find in Loch Ness?", "answers": ["A fossilized sea monster", "Morag, Nessie's pressumed cousin", "100,000 golf balls", "A giant eel"], "correct": "3"}, {"prompt": "Which of these towns is known for freezing over?", "answers": ["Hell, Norway", "Why, Arizona, USA", "Santa Claus, Indiana, USA", "Drama, Greece"], "correct": "1"}, {"prompt": "How many different villages in Scandinavia are called '\u00c5'?", "answers": ["Approximately seven", "All of them", "None, that's not a name", "Maybe two"], "correct": "1"}, {"prompt": "Is it true that Canada has the most lakes in the world?", "answers": ["True", "False"], "correct": "1"}, {"prompt": "Did Anglo-Zanibar War of 1896 only last 38 minutes?", "answers": ["True", "False", "The WHAT war??"], "correct": "1"}, {"prompt": "What is the sister city of Dull, Scotand and Bland Shire, Australia?", "answers": ["Tombstone, Arizona, USA", "Christmas Pie, Surrey, England", "Waikikamukau, New Zealand", "Boring, Oregon, USA", "Point No Point, Washington, USA", "Whynot, North Carolina, USA"], "correct": "4"}, {"prompt": "What state can be typed out using only one row of keys?", "answers": ["Ohio", "Kalaks", "Arizona", "Alaska", "Hawai'i", "Texas", "Typewriter"], "correct": "4"}, {"prompt": "What is Lyme disease named after?", "answers": ["Forest of Lyme in Cheshire, Derbyshire, and Staffordshire", "LYME, a bundle of Linux, Yaws, Mnesia, and Erlang", "Lyme, Connecticut, USA", "David Lyme, a Catalan singer, songwriter, and modelLyme-grass, where ticks hang out (or do they?)Lime (fruit), someone just mispelled it and it stuck"], "correct": "3"}, {"prompt": "Is it true that the McDonald's in Sedona has blue arches?", "answers": ["True", "False"], "correct": "1"}, {"prompt": "Is it true that duffel bags get their name from their creator, Monsieur Duffel?", "answers": ["True", "False"], "correct": "2"}]
+[
+    {
+        "prompt": "What did scientists find in Loch Ness?",
+        "answers": [
+            "1. A fossilized sea monster\n",
+            "2. Morag, Nessie's pressumed cousin\n",
+            "3. 100,000 golf balls\n",
+            "4. A giant eel\n"
+        ],
+        "correct": "3"
+    },
+    {
+        "prompt": "Which of these towns is known for freezing over?",
+        "answers": [
+            "1. Hell, Norway\n",
+            "2. Why, Arizona, USA\n",
+            "3. Santa Claus, Indiana, USA\n",
+            "4. Drama, Greece\n"
+        ],
+        "correct": "1"
+    },
+    {
+        "prompt": "How many different villages in Scandinavia are called '\u00c5'?",
+        "answers": [
+            "1. Approximately seven\n",
+            "2. All of them\n",
+            "3. None, that's not a name\n",
+            "4. Maybe two\n"
+        ],
+        "correct": "1"
+    },
+    {
+        "prompt": "Is it true that Canada has the most lakes in the world?",
+        "answers": [
+            "1. True\n",
+            "2. False\n"
+        ],
+        "correct": "1"
+    },
+    {
+        "prompt": "Did Anglo-Zanibar War of 1896 only last 38 minutes?",
+        "answers": [
+            "1. True\n",
+            "2. False\n",
+            "3. The WHAT war??\n"
+        ],
+        "correct": "1"
+    },
+    {
+        "prompt": "What is the sister city of Dull, Scotand and Bland Shire, Australia?",
+        "answers": [
+            "1. Tombstone, Arizona, USA\n",
+            "2. Christmas Pie, Surrey, England\n",
+            "3. Waikikamukau, New Zealand\n",
+            "4. Boring, Oregon, USA\n",
+            "5. Point No Point, Washington, USA\n",
+            "6. Whynot, North Carolina, USA\n"
+        ],
+        "correct": "4"
+    },
+    {
+        "prompt": "What state can be typed out using only one row of keys?",
+        "answers": [
+            "1. Ohio\n",
+            "2. Kalaks\n",
+            "3. Arizona\n",
+            "4. Alaska\n",
+            "5. Hawai'i\n",
+            "6. Texas\n",
+            "7. Typewriter\n"
+        ],
+        "correct": "4"
+    },
+    {
+        "prompt": "What is Lyme disease named after?",
+        "answers": [
+            "1. Forest of Lyme in Cheshire, Derbyshire, and Staffordshire\n",
+            "2. LYME, a bundle of Linux, Yaws, Mnesia, and Erlang\n",
+            "3. Lyme, Connecticut, USA\n",
+            "4. David Lyme, a Catalan singer, songwriter, and model\n5. Lyme-grass, where ticks hang out (or do they?)\n6. Lime (fruit), someone just mispelled it and it stuck\n"
+        ],
+        "correct": "3"
+    },
+    {
+        "prompt": "Is it true that the McDonald's in Sedona has blue arches?",
+        "answers": [
+            "1. True\n",
+            "2. False\n"
+        ],
+        "correct": "1"
+    },
+    {
+        "prompt": "Is it true that duffel bags get their name from their creator, Monsieur Duffel?",
+        "answers": [
+            "1. True\n",
+            "2. False\n"
+        ],
+        "correct": "2"
+    }
+]

@@ -7,7 +7,13 @@
             "3. 100,000 golf balls\n",
             "4. A giant eel\n"
         ],
-        "correct": "3"
+        "correct": "3",
+	"choices": [
+		"1",
+		"2",
+		"3",
+		"4"
+	]
     },
     {
         "prompt": "Which of these towns is known for freezing over?",
@@ -17,7 +23,13 @@
             "3. Santa Claus, Indiana, USA\n",
             "4. Drama, Greece\n"
         ],
-        "correct": "1"
+        "correct": "1",
+	"choices": [
+		"1",
+		"2",
+		"3",
+		"4"
+	]
     },
     {
         "prompt": "How many different villages in Scandinavia are called '\u00c5'?",
@@ -27,7 +39,13 @@
             "3. None, that's not a name\n",
             "4. Maybe two\n"
         ],
-        "correct": "1"
+        "correct": "1",
+	"choices": [
+		"1",
+		"2",
+		"3",
+		"4"
+	]
     },
     {
         "prompt": "Is it true that Canada has the most lakes in the world?",
@@ -35,7 +53,11 @@
             "1. True\n",
             "2. False\n"
         ],
-        "correct": "1"
+        "correct": "1",
+	"choices": [
+		"1",
+		"2"
+	]
     },
     {
         "prompt": "Did Anglo-Zanibar War of 1896 only last 38 minutes?",
@@ -44,7 +66,12 @@
             "2. False\n",
             "3. The WHAT war??\n"
         ],
-        "correct": "1"
+        "correct": "1",
+	"choices": [
+		"1",
+		"2",
+		"3"
+	]
     },
     {
         "prompt": "What is the sister city of Dull, Scotand and Bland Shire, Australia?",
@@ -56,7 +83,15 @@
             "5. Point No Point, Washington, USA\n",
             "6. Whynot, North Carolina, USA\n"
         ],
-        "correct": "4"
+        "correct": "4",
+	"choices": [
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6"
+	]
     },
     {
         "prompt": "What state can be typed out using only one row of keys?",
@@ -69,7 +104,16 @@
             "6. Texas\n",
             "7. Typewriter\n"
         ],
-        "correct": "4"
+        "correct": "4",
+	"choices": [
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7"
+	]
     },
     {
         "prompt": "What is Lyme disease named after?",
@@ -77,9 +121,19 @@
             "1. Forest of Lyme in Cheshire, Derbyshire, and Staffordshire\n",
             "2. LYME, a bundle of Linux, Yaws, Mnesia, and Erlang\n",
             "3. Lyme, Connecticut, USA\n",
-            "4. David Lyme, a Catalan singer, songwriter, and model\n5. Lyme-grass, where ticks hang out (or do they?)\n6. Lime (fruit), someone just mispelled it and it stuck\n"
+            "4. David Lyme, a Catalan singer, songwriter, and model\n",
+	    "5. Lyme-grass, where ticks hang out (or do they?)\n",
+	    "6. Lime (fruit), someone just mispelled it and it stuck\n"
         ],
-        "correct": "3"
+        "correct": "3",
+	"choices": [
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6"
+	]
     },
     {
         "prompt": "Is it true that the McDonald's in Sedona has blue arches?",
@@ -87,7 +141,11 @@
             "1. True\n",
             "2. False\n"
         ],
-        "correct": "1"
+        "correct": "1",
+	"choices": [
+		"1",
+		"2"
+	]
     },
     {
         "prompt": "Is it true that duffel bags get their name from their creator, Monsieur Duffel?",
@@ -95,6 +153,10 @@
             "1. True\n",
             "2. False\n"
         ],
-        "correct": "2"
+        "correct": "2",
+	"choices": [
+		"1",
+		"2"
+	]
     }
 ]
